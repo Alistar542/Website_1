@@ -1,0 +1,5 @@
+<?php
+header("Content-disposition: attachment; filename=es1.pdf");
+header("Content-type: application/pdf");
+readfile("es1.pdf");
+?> 
